@@ -1,23 +1,27 @@
-.App {
-  text-align: center;
+.ui .fixed .menu {
+  top:0px;
+  left:0px;
+  right:0px; 
+  bottom:auto;
+  border-radius: 0px;
+  position: fixed;
+  z-index: 101;
+  width: 100%;
+  min-height: 10px;
 }
 
-.App-header{
-  background-color: #222;
-  height: 150px;
-  padding: 25px;
-  color: white;
+.ui .inverted .menu {
+  border: 0px solid transparent;
+  background: #1B1C1D;
+  box-shadow: none;
+
 }
 
-.App-title {
-  font-size: 0.75em;
-}
-.App-title-bottom {
-  font-size: 0.25em;
-}
-
-.App-intro {
-  font-size: large;
+  .ui {
+  font-family: sans-serif;
+  font-size: 0.3rem;
+  min-height: 10px;
+  line-height: 0.28571429em;
 }
 
 @keyframes App-logo-spin {
