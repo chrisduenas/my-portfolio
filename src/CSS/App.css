@@ -2,7 +2,7 @@
 
 .bartender {
     background: url(../Media/bartender.jpg);
-    background-size: cover !important;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
     z-index: -1;

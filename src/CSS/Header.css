@@ -4,14 +4,10 @@
     font-family: royal crescent;
     text-shadow: 1px 1px black;
     text-align:center;
+
 }
 
 .roles {
     color: white;
     font-family: royal crescent;
-    /* display:flex;
-    justify-content: center;
-    align-items: center; */
-    display: inline-block;
-
 }
