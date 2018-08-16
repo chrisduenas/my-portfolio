@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Project from './Project';
 import projects from'../data/projects.json';
 
-
 export default class Projects extends Component {
     render() {
         const imageMap = () => {
@@ -14,20 +13,16 @@ export default class Projects extends Component {
                                 />
             })
         }
-        
+
         return (
-                <section id="projects">
-                    <a className="to-top :visted" >
-                        <i className="far fa-arrow-alt-circle-up"></i>
-                    </a>
-                    <header>
+                <section>
+                    <div className="ui container">
                         <h1>My Projects</h1>
                         <p>These are some of my projects</p>
-                    </header>
-              
-                        { imageMap() }
-
-                        
+                        <div className="projects">
+                            { imageMap() }
+                        </div>
+                    </div>
                 </section>
         );
     }

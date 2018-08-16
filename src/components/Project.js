@@ -8,10 +8,10 @@ export default class Project extends Component {
         let imgClass = this.props.imgName + ' portfolio-img';
 
         return (
-            <div>
-                <h2>{this.props.title}</h2>
+            <div className="project">
+                <h5>{this.props.title}</h5>
                 <div className={ imgClass }></div>
-                <p>{this.props.description}</p>
+                <p className="proj-p">{this.props.description}</p>
             </div>
 
         )
