@@ -1,0 +1,44 @@
+#projects {
+    padding-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #000;
+  }
+
+#projects header {
+    padding: 0 10%;
+  }
+
+#projects p {
+    text-align: center;
+  }
+
+div.portfolio-img {
+    background-size: cover;
+    height: 20vh;
+    background-position: center 15%;
+}
+
+section#projects > div {
+    padding: 10px 0 10px 0;
+  }
+  
+section#projects > div:nth-child(odd) {
+    background-color: #E8ECEF
+  }
+  
+section#projects > div:nth-child(even) {
+    background-color: #BAC0BA
+  }
+
+.luna {
+    background-image: url(../Media/luna.jpg);    
+}
+
+.workout {
+    background-image: url(../Media/workout.jpg);
+}
+
+.fanpage {
+    background-image: url(../Media/cubatoriano.jpg);
+}
