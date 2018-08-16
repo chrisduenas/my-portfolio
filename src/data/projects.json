@@ -1,0 +1,19 @@
+{
+    "allProjects": [
+   {
+       "title": "Work Randomizer",
+       "imgName": "workout.jpg",
+       "description": "Coming soon..." 
+   }, 
+   {
+       "title": "Luna the Husky",
+       "imgName": "luna.jpg",
+       "description": "Coming soon..." 
+   }, 
+   {
+       "title": "Cubatoriano Fan Page",
+       "imgName": "fanpage.jpg",
+       "description": "Coming soon..." 
+   }
+    ]
+}

@@ -5,18 +5,20 @@ export default class Header extends Component {
     render() {
         return (
             <div>
-                <h1 className="name">Chris Duenas</h1>
+                <div className="ui container">
+                    <h1 className="name">Chris Duenas</h1>
+                </div>
                 <div className="roles ui grid">
-                    <div className="four wide column">
-                        <p>Web Developer</p>
+                    <div className="">
+                        <p>Full Stack Developer</p>
                     </div>
-                    <div className="four wide column">
+                    <div className="">
                         <p>Mixologist</p>
                     </div>
-                    <div className="four wide column">
+                    <div className="">
                         <p>Actor</p>
                     </div>
-                    <div className="four wide column">
+                    <div className="">
                         <p>Fitness Enthusiast</p>
                     </div>
                 </div>
