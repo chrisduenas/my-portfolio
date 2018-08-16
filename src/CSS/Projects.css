@@ -1,35 +1,43 @@
-#projects {
-    padding-top: 10px;
-    text-align: center;
-    box-sizing: border-box;
-    border: 1px solid #000;
-  }
 
-#projects header {
-    padding: 0 10%;
-  }
 
-#projects p {
-    text-align: center;
-  }
+.portfolio-img {
+    border-radius: .5rem;
+    background-size:cover;
+    background-position: center 1%;
+    border: .1rem solid black;
 
-div.portfolio-img {
-    background-size: cover;
-    height: 20vh;
-    background-position: center 15%;
 }
 
-section#projects > div {
-    padding: 10px 0 10px 0;
+.projects {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: start;
+    justify-content: center;
+    padding: 1em;
   }
   
-section#projects > div:nth-child(odd) {
-    background-color: #E8ECEF
+  .project {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    padding: 1rem .5rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
   }
-  
-section#projects > div:nth-child(even) {
-    background-color: #BAC0BA
+  section {
+      margin-top: 10em;
   }
+    section .project > div {
+    padding: 25px 0 25px 10px;
+    display:flex;
+    flex: 1;
+    align-items: start;
+    justify-content: center;
+  } 
 
 .luna {
     background-image: url(../Media/luna.jpg);    

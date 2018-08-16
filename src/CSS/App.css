@@ -1,7 +1,7 @@
 @import url(https://www.1001fonts.com/royal-crescent-font.html);
 
 .bartender {
-    background: url(../Media/bartender.jpg);
+    background: url(../Media/bartender.jpg)fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:center;
@@ -9,6 +9,13 @@
     min-height: 50vh;
 }
 
-h1, h2, p {
+h1, h5, p {
     color: white;
+    font-family: royal crescent;
+    text-shadow: 1px 1px black;
+    text-align:center;
+}
+
+p {
+    font-size: 10px;
 }
