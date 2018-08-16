@@ -1,18 +1,18 @@
 {
     "allProjects": [
    {
-       "title": "Work Randomizer",
+       "title": "Cocktail Party",
+       "imgName": "cocktailparty",
+       "description": "An App that helps you find bartenders for your events" 
+   }, 
+   {
+       "title": "Workout Randomizer",
        "imgName": "workout",
        "description": "Coming soon..." 
    }, 
    {
        "title": "Luna the Husky",
        "imgName": "luna",
-       "description": "Coming soon..." 
-   }, 
-   {
-       "title": "Fan Page",
-       "imgName": "fanpage",
        "description": "Coming soon..." 
    }
     ]

@@ -4,7 +4,7 @@ import '../CSS/Header.css';
 export default class Header extends Component {
     render() {
         return (
-            <div>
+            <div className="header">
                 <div className="ui container">
                     <h1 className="name">Chris Duenas</h1>
                 </div>
