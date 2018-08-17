@@ -12,9 +12,9 @@ class App extends Component {
      <div className="bartender ui fluid">
        <Nav/>
        <Header/>
+       <About/>
        <Projects/>
-        <About/>
-        <Footer/>
+       <Footer/>
 
      </div>
     );
