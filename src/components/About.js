@@ -4,7 +4,7 @@ import { Segment } from 'semantic-ui-react';
 export default class About extends Component {
     render() {
         return(
-            <Segment>
+            <Segment className="piled">
                 Lorem ipsum dolor amet readymade semiotics blog post-ironic hella 
                 raw denim sartorial, austin raclette master cleanse. Copper mug hot 
                 chicken thundercats, church-key affogato adaptogen polaroid synth offal 
