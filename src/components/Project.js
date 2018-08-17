@@ -9,9 +9,9 @@ export default class Project extends Component {
 
         return (
             <div className="project">
-                <h5>{this.props.title}</h5>
+                <h5 id="title">{this.props.title}</h5>
                 <div className={ imgClass }></div>
-                <p className="proj-p">{this.props.description}</p>
+                <p id="proj-p">{this.props.description}</p>
             </div>
 
         )
