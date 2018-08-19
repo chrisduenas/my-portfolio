@@ -8,17 +8,16 @@
 }
 
 .portfolio-img {
+    height:10vh;
     border-radius: .5rem;
     background-size:cover;
-    background-position: center 1%;
+    background-position: center 50%;
     border: .1rem solid black;
-
 }
 
 .projects {
     display: flex;
     flex: 1;
-    min-height: 20vh;
     align-items: start;
     justify-content: space-evenly;
   }
@@ -26,24 +25,18 @@
   .project {
     border: .4rem solid black;
     border-radius: .5rem;
-    margin: 1rem;
-    padding: 1rem .5rem;
-    width: 10rem;
+    margin: 2rem;
+    padding: 0.1rem 2.5rem rem 2.5rem;
+    width: 15rem;
     height: 15rem;
     text-align: center;
     color: white;
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .5rem black;
   }
-  section {
-      margin-top: 10em;
-  }
+
     section .project > div {
-    padding: 25px 0 25px 10px;
-    display:flex;
-    flex: 1;
-    align-items: start;
-    justify-content: center;
+    padding: 25px 0 25px 0px;
   } 
 
 .luna {
