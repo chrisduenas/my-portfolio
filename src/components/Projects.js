@@ -16,19 +16,19 @@ export default class Projects extends Component {
         }
 
         return (
+            <Segment inverted>
                 <section>
                     <div className="ui container">
                         <h1>My Projects</h1>
                         <p>These are some of my projects</p>
-                        <Segment>
                             <Grid className="projects" grid>
                                 <Grid.Row>
                                     { imageMap() }
                                 </Grid.Row>
                             </Grid>
-                        </Segment>
                     </div>
                 </section>
+            </Segment>
         );
     }
 }
