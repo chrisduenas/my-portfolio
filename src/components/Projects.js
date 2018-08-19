@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Project from './Project';
 import projects from'../data/projects.json';
-import { Grid } from 'semantic-ui-react';
+import { Grid, Segment } from 'semantic-ui-react';
 
 export default class Projects extends Component {
     render() {
@@ -20,11 +20,13 @@ export default class Projects extends Component {
                     <div className="ui container">
                         <h1>My Projects</h1>
                         <p>These are some of my projects</p>
-                            <Grid className="projects">
+                        <Segment>
+                            <Grid className="projects" grid>
                                 <Grid.Row>
                                     { imageMap() }
                                 </Grid.Row>
                             </Grid>
+                        </Segment>
                     </div>
                 </section>
         );
