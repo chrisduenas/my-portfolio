@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../CSS/Header.css';
+import { Grid } from 'semantic-ui-react';
 
 export default class Header extends Component {
     render() {
@@ -8,20 +9,20 @@ export default class Header extends Component {
                 <div className="ui container">
                     <h1 className="name">Chris Duenas</h1>
                 </div>
-                <div className="roles ui grid">
-                    <div className="">
+                <Grid className="roles">
+                    <Grid.Column>
                         <p>Full Stack Developer</p>
-                    </div>
-                    <div className="">
+                    </Grid.Column>
+                    <Grid.Column>
                         <p>Mixologist</p>
-                    </div>
-                    <div className="">
+                    </Grid.Column>
+                    <Grid.Column>
                         <p>Actor</p>
-                    </div>
-                    <div className="">
+                    </Grid.Column>
+                    <Grid.Column>
                         <p>Fitness Enthusiast</p>
-                    </div>
-                </div>
+                    </Grid.Column>
+                </Grid>
                 <div class="ui divider"></div>
             </div>
 
