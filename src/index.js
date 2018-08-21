@@ -4,7 +4,7 @@ import App from './components/App';
 import 'semantic-ui-css/semantic.min.css';
 
 
-class Root extends Component {
+export default class Root extends Component {
     render() {
         return <App />;
     }

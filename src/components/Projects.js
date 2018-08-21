@@ -13,7 +13,7 @@ export default class Projects extends Component {
                                 description={project.description}
                                 />
             })
-        }
+        };
 
         return (
             <Segment inverted>
@@ -21,11 +21,11 @@ export default class Projects extends Component {
                     <div className="ui container">
                         <h1>My Projects</h1>
                         <p>These are some of my projects</p>
-                            <Grid className="projects" grid>
-                                <Grid.Row>
-                                    { imageMap() }
-                                </Grid.Row>
-                            </Grid>
+                        <Grid className="projects" grid>
+                            <Grid.Row>
+                                { imageMap() }
+                            </Grid.Row>
+                        </Grid>
                     </div>
                 </section>
             </Segment>

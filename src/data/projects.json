@@ -15,5 +15,24 @@
        "imgName": "luna",
        "description": "Coming soon..." 
    }
-    ]
+    ],
+
+    "roleBio": [
+    {
+        "title": "Full Stack Developer",
+        "description": "Lorum ipson ut stack dev props statecd  hg"
+    },
+    {
+        "title": "Mixologist",
+        "description": "Lorum ipson ut mix drink"
+    },
+    {
+        "title": "Actor",
+        "description": "Lorum ipson ut you talkin to me?"
+    },
+    {
+        "title": "Fitness Enthusiast",
+        "description": "Lorum ipson ut pain is weakness leaving the body"
+    }
+        ]
 }
