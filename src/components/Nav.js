@@ -13,7 +13,7 @@ export default class Nav extends Component {
         return (
             <Menu className="ui inverted borderless top fixed">
                 <Dropdown item text="Chris Duenas" className="chrisduenas">
-                    <Dropdown.Menu inverted>
+                    <Dropdown.Menu inverted="true">
                         <Dropdown.Item name="home" active={activeItem === 'home'} onClick={this.handleItemClick}>Home</Dropdown.Item>
                         <Dropdown.Item name="about" active={activeItem === 'about'} onClick={this.handleItemClick}>About</Dropdown.Item>
                         <Dropdown.Item name="projects" active={activeItem === 'projects'} onClick={this.handleItemClick}>Projects</Dropdown.Item>
