@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Segment } from 'semantic-ui-react';
-import projects from '../data/projects.json';
+import roles from '../data/roles.json';
 
 
 export default class About extends Component {
 
     render() {  
         const rolePlay = () => {
-            return projects.roleBios.map((role, index) => {
+            return roles.roleBios.map((role, index) => {
                 return <Segment
                         key={index}
                         onClick={this.toggleRole}>

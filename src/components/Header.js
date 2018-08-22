@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../CSS/Header.css';
 import { Grid, Segment } from 'semantic-ui-react';
 import About from './About';
-import projects from '../data/projects.json';
+import roles from '../data/roles.json';
 
 
 
@@ -11,13 +11,13 @@ export default class Header extends Component {
         super(props);
         this.state={ 
             segments : false,
-            roles: projects.roleBios
+            roles: roles.roleBios
          }
          this.toggleRole = this.toggleRole.bind(this);
     }
 
     toggleRole() {
-        const roleModel = projects.roleBios.map(role => `${role.title} : ${role.description}`);
+        const roleModel = roles.roleBios.map(role => `${role.title} : ${role.description}`);
         const model = roleModel.forEach(function(e) {
             console.log(e);
         });
