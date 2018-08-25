@@ -1,27 +1,29 @@
 import React, { Component } from 'react';
-import { Segment } from 'semantic-ui-react';
+import { Grid, Segment } from 'semantic-ui-react';
 import roles from '../data/roles.json';
+import Dev from './About/Dev';
 
 
 export default class About extends Component {
+    constructor(props){
+        super(props)
+        this.handleDataCallback = this.handleDataCallback.bind(this)
+    }
+    handleDataCallback(txtMsg) {
+        alert("hi")
 
-    render() {  
-        const rolePlay = () => {
-            return roles.roleBios.map((role, index) => {
-                return <Segment
-                        key={index}
-                        onClick={this.toggleRole}>
-                        <h5>{role.title}</h5>
-                        <p>{role.description}</p>
-                        </Segment>
-            })
-          
-    };
-        return(
+    }
+    
+    render() {   
+
+        return (
             <div className="ui container">
-                <Segment className="ui stacked segment" 
-                        onClick={this.toggleRole}>
-                         { rolePlay() }
+                <Segment className="ui stacked segment">
+                    {roles.map((role, index) => {
+                        return <Dev item={role}
+                                    key={index}
+                                    dataCallback={this.handleDataCallback} />
+                    })}
                 </Segment>
             </div>
         )

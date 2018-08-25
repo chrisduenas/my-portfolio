@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import '../CSS/Header.css';
 import { Grid, Segment } from 'semantic-ui-react';
 import About from './About';
+import Dev from './About/Dev';
 import roles from '../data/roles.json';
+
 
 
 
@@ -11,25 +13,20 @@ export default class Header extends Component {
         super(props);
         this.state={ 
             segments : false,
-            roles: roles.roleBios
+            roles: roles
          }
          this.toggleRole = this.toggleRole.bind(this);
+
     }
 
-    toggleRole() {
-        const roleModel = roles.roleBios.map(role => `${role.title} : ${role.description}`);
-        const model = roleModel.forEach(function(e) {
-            console.log(e);
-        });
-
+    toggleRole(event) {
         this.setState({ 
         segments : !this.state.segments,
         })
+    }
 
-}
 
     render() {
-
         return (
             <div className="header">
                 <div className="ui container">
@@ -37,22 +34,20 @@ export default class Header extends Component {
                 </div>
                     <Grid className="roles" grid="true">
                         <Grid.Column>
-                            <p onClick={this.toggleRole} className={this.state.segments ? <About/> : null }>Full Stack Developer</p>
+                            <p onClick={this.toggleRole.bind(this, 1)} >Full Stack Developer</p>
                         </Grid.Column>
                         <Grid.Column>
-                            <p onClick={this.toggleRole} className={this.state.segments ? <About/> : null }>Mixologist</p>
+                            <p onClick={this.toggleRole.bind(this)} >Mixologist</p>
                         </Grid.Column>
                         <Grid.Column>
-                            <p onClick={this.toggleRole} className={this.state.segments ? <About/> : null }>Actor</p>
+                            <p onClick={this.toggleRole.bind(this)} >Actor</p>
                         </Grid.Column>
                         <Grid.Column>
-                            <p onClick={this.toggleRole} className={this.state.segments ? <About/> : null }>Fitness Enthusiast</p>
+                            <p onClick={this.toggleRole.bind(this)} >Fitness Enthusiast</p>
                         </Grid.Column>
                     </Grid>
                 <div className="ui divider"></div>
-                {this.state.segments ?
-                <About/>
-                : null }
+                {this.state.segments && <About/>} 
             </div>
 
         )
