@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { Grid, Segment } from 'semantic-ui-react';
+import { Grid } from 'semantic-ui-react';
 import roles from '../data/roles.json';
 import AboutTitle from './About/AboutTitle';
+import AboutDetails from './About/AboutDetails'
 
 
 export default class About extends Component {
@@ -17,22 +18,29 @@ export default class About extends Component {
     toggleRole(event) {
         event.preventDefault()
         this.setState({ 
-        segments : !this.state.segments,
+        segments : !this.state.segments
         })
     }
 
     render() {
         const { segments } = this.state
         return (
+            <div>
                 <Grid className="roles" grid="true">
-                    { roles.map((role, index) => {
-                        return <AboutTitle person={role}
-                                                key={index}
-                                                toggle={this.toggleRole}
+                        { roles.map((role, index) => {
+                            return <AboutTitle person={role}
+                                               key={index}
+                                               toggle={this.toggleRole}
 
-                                />
-                        })}
+                                    />
+                            })}
                 </Grid>
+                <div>
+                    { segments ? <AboutDetails/> : null }
+                </div>
+            </div>
+
+
             )
         }
     }
