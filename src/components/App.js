@@ -3,8 +3,8 @@ import '../CSS/App.css';
 import Nav from './Nav';
 import Header from './Header';
 import Projects from './Projects';
-import About from './About';
 import Footer from './Footer';
+import Details from './Details';
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
      <div className="bartender ui fluid">
        <Nav/>
        <Header/>
+       <Details/>
        <Projects/>
        <Footer/>
      </div>
