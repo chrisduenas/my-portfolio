@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Grid } from 'semantic-ui-react';
 import roles from '../data/roles.json';
 import AboutTitle from './About/AboutTitle';
+import '../CSS/About.css';
 
 export default class About extends Component {
     constructor(props){

@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { Grid } from 'semantic-ui-react';
-import AboutDetails from './AboutDetails';
-// import roles from '.../data/roles.json';
 
 export default class AboutTitle extends Component {
     constructor(props) {
@@ -25,17 +22,16 @@ export default class AboutTitle extends Component {
         const {segments} = this.state
         return (
             <div>
-                <Grid className="roles" grid="true">
-                    <Grid.Column>
-                        <p onClick={this.toggleContent}
-                        toggle={this.toggleRole}>
-                        {person.title}</p>
-                    </Grid.Column>
-                </Grid>
-                    { segments ? <AboutDetails/> : null }
+                <div className="roles" 
+                     grid="true"
+                     onClick={this.toggleContent}
+                     toggle={this.toggleRole}>
+                        <p>{person.title}</p>
+                </div>
+                <div className="about-description">
+                    { segments ? <p>{person.description}</p> : null }
+                </div>
             </div>
-
- 
         )
     }
 }
