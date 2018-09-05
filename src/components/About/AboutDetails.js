@@ -4,10 +4,10 @@ export default class AboutDetails extends Component {
     constructor(props){
         super(props)
 }
-    render(){  
+    render(){ 
         return (
                 <div>
-                    <p>person</p>
+                    <p>person.description</p>
                 </div>
                 )
     }
