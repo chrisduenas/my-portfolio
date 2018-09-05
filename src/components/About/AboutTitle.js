@@ -12,24 +12,18 @@ export default class AboutTitle extends Component {
 
     toggleContent(event) {
         event.preventDefault()
-        this.setState({ 
-        segments : !this.state.segments
-        })
+        const {toggle} = this.props
+        toggle(event)
     }
 
     render() {
         const { person } = this.props
-        const {segments} = this.state
         return (
             <div>
                 <div className="roles" 
                      grid="true"
-                     onClick={this.toggleContent}
-                     toggle={this.toggleRole}>
+                     onClick={this.toggleContent}>
                         <p>{person.title}</p>
-                </div>
-                <div className="about-description">
-                    { segments ? <p>{person.description}</p> : null }
                 </div>
             </div>
         )
