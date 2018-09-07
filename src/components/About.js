@@ -34,20 +34,19 @@ constructor(props){
         return <AboutDetails
                   activeRole={i}
                   key={i}
-                  index={i}
                   person={role}/>
      }
 
     render() {
         const {segments} = this.state
-        console.log(this.state.activeRole);
-        const roleDescription = this.eachDescription(roles[this.state.activeRole], this.state.activeRole);
+        const activeRole = this.state.activeRole;
+        const roleDescription = this.eachDescription(roles[activeRole], activeRole);
         return (
             <React.Fragment>
                 <div className="roles" grid="true">
                     {roles.map(this.eachRole)}
                 </div>
-                <div>
+                <div className="bartender">
                     { segments ? roleDescription : null }
                 </div>
             </React.Fragment>

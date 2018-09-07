@@ -10,9 +10,7 @@ export default class Header extends Component {
                 <div className="ui container">
                     <h1 className="name">Chris Duenas</h1>
                 </div>
-                <div className="ui container">
                     <About/>
-                </div>
             </div>
 
         )
