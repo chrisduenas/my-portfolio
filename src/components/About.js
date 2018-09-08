@@ -4,6 +4,7 @@ import AboutTitle from './About/AboutTitle';
 import AboutDetails from './About/AboutDetails';
 import '../CSS/About.css';
 
+
 export default class About extends Component {
 constructor(props){
     super(props)
@@ -21,7 +22,6 @@ constructor(props){
             segments: !this.state.segments,
             activeRole: item
         });
-        
     }
 
     eachRole(role, i){
@@ -43,10 +43,10 @@ constructor(props){
         const roleDescription = this.eachDescription(roles[activeRole], activeRole);
         return (
             <React.Fragment>
-                <div className="roles" grid="true">
+                <div className="header roles">
                     {roles.map(this.eachRole)}
                 </div>
-                <div className="bartender">
+                <div>
                     { segments ? roleDescription : null }
                 </div>
             </React.Fragment>
