@@ -22,7 +22,12 @@ export default class AboutTitle extends Component {
                 <div className="roles" 
                      grid="true"
                      onClick={this.toggleContent}>
-                        <p>{person.title}</p>
+                       <p>
+                         <a href="#" 
+                            className="effect-shine">
+                            {person.title}
+                        </a>
+                       </p>
                 </div>
             </div>
         )
