@@ -18,7 +18,11 @@ export default class Footer extends Component {
                                     <i className="ui linkedin icon"></i>
                                 </a>
                             </div>
-                            <div className="item"></div>
+                            <div className="item">
+                                <a href="https://www.dropbox.com/s/2w24t829ypvzn3d/chrisduenas%20resume%202018.pdf?dl=0">
+                                    <i className="ui file outline icon"></i>
+                                </a>
+                            </div>
                     </div>
                 </div>
             </div>
