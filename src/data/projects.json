@@ -5,6 +5,10 @@
        "imgName": "cocktailparty",
        "description": "An App that helps you find bartenders for your events" 
    }, 
+   {   
+        "title": "Overtime Tracker",
+        "imgName": "",
+        "description": "Coming soon... This is a Rails Application that tracks employee overtime" },
    {
        "title": "Workout Randomizer",
        "imgName": "workout",
