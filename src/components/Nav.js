@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Dropdown, Menu } from 'semantic-ui-react';
 
-
-
 export default class Nav extends Component {
     state ={}
 
@@ -11,17 +9,27 @@ export default class Nav extends Component {
     render() {
         const { activeItem } = this.state
         return (
-            <Menu className="ui inverted borderless top fixed">
-                <Dropdown item text="Chris Duenas" className="chrisduenas">
-                    <Dropdown.Menu inverted="true">
-                        <Dropdown.Item name="home" active={activeItem === 'home'} onClick={this.handleItemClick}>Home</Dropdown.Item>
-                        <Dropdown.Item name="about" active={activeItem === 'about'} onClick={this.handleItemClick}>About</Dropdown.Item>
-                        <Dropdown.Item name="projects" active={activeItem === 'projects'} onClick={this.handleItemClick}>Projects</Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
-            </Menu>
+                <Menu inverted secondary className="ui fixed menu">
+                    <Menu.Item>
+                        <img class="ui avatar image" src={require("../Media/logo.png")}/>                    
+                    </Menu.Item>
+                    <Menu.Item
+                    position="right"
+                    name='about'
+                    active={activeItem === 'about'}
+                    onClick={this.handleItemClick}
+                    >
+                    About
+                    </Menu.Item>
 
+                    <Menu.Item
+                    name='projects'
+                    active={activeItem === 'projects'}
+                    onClick={this.handleItemClick}
+                    >
+                    Projects
+                    </Menu.Item>
+                </Menu>
         )
     }
 };
-
