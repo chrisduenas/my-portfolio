@@ -8,15 +8,10 @@
    {   
         "title": "Overtime Tracker",
         "imgName": "",
-        "description": "Coming soon... This is a Rails Application that tracks employee overtime" },
+        "description": "Under Construction... This is a Rails Application that tracks employee overtime" },
    {
        "title": "Workout Randomizer",
        "imgName": "workout",
-       "description": "Coming soon..." 
-   }, 
-   {
-       "title": "Luna the Husky",
-       "imgName": "luna",
        "description": "Coming soon..." 
    }
     ]
