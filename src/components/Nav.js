@@ -14,20 +14,20 @@ export default class Nav extends Component {
                         <img class="ui avatar image" src={require("../Media/logo.png")}/>                    
                     </Menu.Item>
                     <Menu.Item
-                    position="right"
-                    name='about'
-                    active={activeItem === 'about'}
-                    onClick={this.handleItemClick}
+                        position="right"
+                        name='about'
+                        active={activeItem === 'about'}
+                        onClick={this.handleItemClick}
                     >
-                    About
+                        About
                     </Menu.Item>
 
                     <Menu.Item
-                    name='projects'
-                    active={activeItem === 'projects'}
-                    onClick={this.handleItemClick}
+                        name='projects'
+                        active={activeItem === 'projects'}
+                        onClick={this.handleItemClick}
                     >
-                    Projects
+                        Projects
                     </Menu.Item>
                 </Menu>
         )
