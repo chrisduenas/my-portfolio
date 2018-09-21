@@ -1,0 +1,24 @@
+.contact {
+    background-color:rgba(0, 0, 0, 0.493);
+    margin-top: 14px;
+}
+
+.contact-title {
+    color: goldenrod;
+    font-family: royal crescent;
+    text-shadow: 1px 1px black;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.columns {
+    display:flex;
+    justify-content: center;
+}
+
+.social-link {
+    color: goldenrod;
+    text-shadow: 1px 1px black;
+
+}
