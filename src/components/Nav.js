@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Dropdown, Menu } from 'semantic-ui-react';
+import { Menu } from 'semantic-ui-react';
 
 export default class Nav extends Component {
     state ={}
@@ -11,7 +11,7 @@ export default class Nav extends Component {
         return (
                 <Menu inverted secondary className="ui fixed menu">
                     <Menu.Item>
-                        <img class="ui avatar image" src={require("../Media/logo.png")}/>                    
+                        <img class="ui avatar image" src={require("../Media/logo.png")} alt="logo"/>                    
                     </Menu.Item>
                     <Menu.Item
                         position="right"
@@ -28,6 +28,13 @@ export default class Nav extends Component {
                         onClick={this.handleItemClick}
                     >
                         Projects
+                    </Menu.Item>
+                    <Menu.Item
+                        name='contact'
+                        active={activeItem === 'contact'}
+                        onClick={this.handleItemClick}
+                    >
+                        Contact
                     </Menu.Item>
                 </Menu>
         )

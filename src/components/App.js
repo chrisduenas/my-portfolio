@@ -3,7 +3,8 @@ import '../CSS/App.css';
 import Nav from './Nav';
 import Header from './Header';
 import Projects from './Projects';
-import Footer from './Footer';
+import Contact from './Contact';
+
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
        <Nav/>
        <Header/>
        <Projects/>
-       <Footer/>
+       <Contact/>
      </div>
     );
   }
