@@ -1,10 +1,17 @@
+@import url(https://www.1001fonts.com/royal-crescent-font.html);
+
+
 .project-section{
     background-color: rgb(22, 21, 21);
-
+    min-height: 70vh;
+    padding:40px;
 }
 
-h1 {
+h3 {
+    color: white;
     font-family: royal crescent;
+    /* text-shadow: 1px 1px black; */
+    text-align:center;
 }
 
 #title {
@@ -17,7 +24,7 @@ h1 {
 }
 
 .portfolio-img {
-    height:10vh;
+    height:15vh;
     border-radius: .5rem;
     background-size:cover;
     background-position: center 50%;
@@ -36,8 +43,8 @@ h1 {
     border-radius: .5rem;
     margin: 2rem;
     padding: 0.1rem 2.5rem rem 2.5rem;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     text-align: center;
     color: white;
     background: rgba(0,0,0,0.4);

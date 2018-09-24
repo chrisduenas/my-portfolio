@@ -18,7 +18,7 @@ export default class Projects extends Component {
 
         return (
             <div className="project-section">
-                        <h1>My Projects</h1>
+                        <h3>My Projects</h3>
                         <Grid className="projects" grid="true">
                             <Grid.Row>
                                 { imageMap() }
