@@ -1,6 +1,16 @@
-.header {
+.header {  
     background-color: black;
-}
+    background: linear-gradient( rgba(0, 0, 0, 0.2),
+     rgba(0, 0, 0, 0.2) ),
+      url(../Media/fisheye.jpg);
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size:cover;
+      width: 100%;
+      min-height: 90vh;
+    }
+
 
 .name {
     color: white;
@@ -8,9 +18,9 @@
     font-family: royal crescent;
     text-shadow: 1px 1px black;
     text-align:center;
+    min-height:40vh;
     margin-left:auto;
     margin-right:auto;
-    min-height: 30vh;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -22,6 +32,7 @@
     font-family: royal crescent;
     display:flex;
     justify-content:space-evenly;
+    padding: 20px;
 }
 
 .roles p {

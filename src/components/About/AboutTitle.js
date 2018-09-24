@@ -11,6 +11,7 @@ export default class AboutTitle extends Component {
     }
 
     toggleContent(event) {
+        event.preventDefault();
         const {toggle} = this.props
         toggle(event)
     }
