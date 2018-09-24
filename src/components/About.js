@@ -43,7 +43,7 @@ constructor(props){
         const roleDescription = this.eachDescription(roles[activeRole], activeRole);
         return (
             <React.Fragment>
-                <div className="header roles">
+                <div className="roles">
                     {roles.map(this.eachRole)}
                 </div>
                 <div>

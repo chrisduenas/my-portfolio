@@ -9,7 +9,7 @@ export default class Nav extends Component {
     render() {
         const { activeItem } = this.state
         return (
-                <Menu inverted secondary className="ui fixed menu">
+                <Menu inverted borderless className="ui fixed menu">
                     <Menu.Item>
                         <img class="ui avatar image" src={require("../Media/logo.png")} alt="logo"/>                    
                     </Menu.Item>
