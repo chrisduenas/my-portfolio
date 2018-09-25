@@ -1,24 +1,34 @@
 .contact {
     background-color:rgba(0, 0, 0, 0.637);
-    margin-top: 14px;
+    min-height:30vh;
 }
 
+
 .contact-title {
-    color: goldenrod;
+    color: #e9a11bdc;
     font-family: royal crescent;
     text-shadow: 1px 1px black;
-    margin-bottom: 25px;
+    text-align:center;
+    padding: 40px;
+}
+
+.columns {
     display: flex;
     justify-content: center;
 }
 
-.columns {
-    display:flex;
+.social-link {
+    color: #e9a11bdc;
+    text-shadow: 1px 1px black;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.social-link {
-    color: goldenrod;
+.resume {
+    color: #e9a11bdc;
     text-shadow: 1px 1px black;
-
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
 }
