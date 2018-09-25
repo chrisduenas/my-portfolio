@@ -3,16 +3,20 @@
    {
        "title": "Cocktail Party",
        "imgName": "cocktailparty",
-       "description": "An App that helps you find bartenders for your events" 
+       "description": "An App that helps you find bartenders for your events",
+       "linkTo": "https://cocktail-party.herokuapp.com"
    }, 
    {   
         "title": "Overtime Tracker",
-        "imgName": "",
-        "description": "Under Construction... This is a Rails Application that tracks employee overtime" },
+        "imgName": "overtime",
+        "description": "Under Construction... This is a Rails Application that tracks employee overtime",
+        "linkTo": ""
+    },
    {
        "title": "Workout Randomizer",
        "imgName": "workout",
-       "description": "Coming soon..." 
+       "description": "Coming soon...",
+       "linkTo": ""
    }
     ]
 }

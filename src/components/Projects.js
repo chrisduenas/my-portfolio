@@ -12,6 +12,7 @@ export default class Projects extends Component {
                                 title={project.title}
                                 imgName={project.imgName}
                                 description={project.description}
+                                linkTo={project.linkTo}
                                 />
             })
         };

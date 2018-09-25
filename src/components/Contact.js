@@ -9,7 +9,7 @@ export default class Contact extends Component {
                 <div className="ui container">
                     <h2 className="contact-title">Contact Me</h2>
                 <div className="resume">
-                        <a className="social-link" href='https://www.dropbox.com/home?preview=chrisduenas+resume+2018.pdf'>
+                        <a className="social-link" href='https://www.dropbox.com/home?preview=chrisduenas+resume+2018.pdf' target="blank">
                             <p><strong>Resume</strong></p>
                             <Icon name='file alternate outline' size='big' /> 
                         </a>
@@ -22,22 +22,22 @@ export default class Contact extends Component {
                     <Grid className="columns">
                         <Grid.Row>
                             <Grid.Column>
-                            <a className="social-link" href='https://github.com/chrisduenas'>
+                            <a className="social-link" href='https://github.com/chrisduenas' target="blank">
                             <Icon name="github" size='big' /> 
                             </a>
                             </Grid.Column>
                             <Grid.Column>
-                            <a className="social-link" href='https://www.linkedin.com/in/christopherduenas/'>
+                            <a className="social-link" href='https://www.linkedin.com/in/christopherduenas/' target="blank">
                             <Icon name='linkedin' size='big' /> 
                             </a>
                             </Grid.Column>
                             <Grid.Column>
-                            <a className="social-link" href='https://www.facebook.com/Chris.A.Duenas'>
+                            <a className="social-link" href='https://www.facebook.com/Chris.A.Duenas' target="blank">
                                 <Icon name='facebook' size='big' /> 
                                 </a>
                             </Grid.Column>
                             <Grid.Column>
-                                <a className="social-link" href='https://twitter.com/christopherdue'>
+                                <a className="social-link" href='https://twitter.com/christopherdue' target="blank">
                                 <Icon name='twitter' size='big' /> 
                                 </a>
                             </Grid.Column>
