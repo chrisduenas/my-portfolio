@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import { Menu } from 'semantic-ui-react';
+import '../CSS/Nav.css';
 
 export default class Nav extends Component {
-    state ={}
+    state ={ activeItem: 'about'}
 
-    handleItemClick = (e, { name } ) => this.setState({ activeItem: name})
+    handleItemClick = (e, { name } ) => this.setState({ activeItem: name });
 
     render() {
         const { activeItem } = this.state
         return (
-                <Menu inverted secondary className="ui fixed menu">
+            <div className="nav-menu">
+                <Menu pointing secondary className="ui fixed top inverted menu">
                     <Menu.Item>
-                        <img class="ui avatar image" src={require("../Media/logo.png")} alt="logo"/>                    
+                        <img class="ui avatar image tiny" src={require("../Media/logo.png")} alt="logo"/>                    
                     </Menu.Item>
                     <Menu.Item
                         position="right"
@@ -19,7 +21,7 @@ export default class Nav extends Component {
                         active={activeItem === 'about'}
                         onClick={this.handleItemClick}
                     >
-                        About
+                        <p><strong>About</strong></p>
                     </Menu.Item>
 
                     <Menu.Item
@@ -27,16 +29,17 @@ export default class Nav extends Component {
                         active={activeItem === 'projects'}
                         onClick={this.handleItemClick}
                     >
-                        Projects
+                        <p><strong>Projects</strong></p>
                     </Menu.Item>
                     <Menu.Item
                         name='contact'
                         active={activeItem === 'contact'}
                         onClick={this.handleItemClick}
                     >
-                        Contact
+                        <p><strong>Contact</strong></p>
                     </Menu.Item>
                 </Menu>
+                </div>
         )
     }
 };

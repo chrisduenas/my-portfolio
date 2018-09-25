@@ -7,12 +7,10 @@ export default class Header extends Component {
     render() {
         return (
             <React.Fragment>
-            <div className="header">
-                    <h1 className="name">
-                        Chris Duenas
-                    </h1>
+                <div className="header">
+                    <h1 className="name">Chris Duenas</h1>
                     <About/>
-            </div>
+                </div>
             </React.Fragment>
 
         )

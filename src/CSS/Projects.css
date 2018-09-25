@@ -2,26 +2,33 @@
 
 
 .project-section{
-    background-color: rgb(22, 21, 21);
+    /* background-color: rgba(22, 21, 21, 0.726); */
+    background-color:rgba(0, 0, 0, 0.651);
+
     min-height: 70vh;
     padding:40px;
+    /* opacity: 0.9 */
+}
+
+.project-section h3 {
+    font-family: royal crescent;
 }
 
 h3 {
     color: white;
-    font-family: royal crescent;
     text-shadow: 1px 1px #e6960221;
     text-align:center;
 }
 
 #title {
     padding: 10px;
+    font-family: Cochin;
     text-shadow: 1px 1px #e6960221;
 
 }
 
 #proj-p {
-    font-family: 'sans-serif';
+    font-family: Cochin;
     font-size: 14px;
 }
 
@@ -41,7 +48,7 @@ h3 {
   }
   
   .project {
-    border: .4rem solid rgba(245, 131, 0, 0.418);
+    border: .4rem solid rgba(248, 167, 73, 0.658);
     border-radius: 1rem;
     margin: 2rem;
     padding: 0.1rem 2.5rem rem 2.5rem;
@@ -50,7 +57,7 @@ h3 {
     text-align: center;
     color: white;
     background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .5rem black;
+    text-shadow: 0 0 .9rem black;
   }
 
     section .project > div {

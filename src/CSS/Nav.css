@@ -1,5 +1,3 @@
-.ui.fixed.menu {
-    color: black;
-    display: flex;
-    justify-content: center;
+.nav-menu {
+    font-family: 'Times New Roman', Times, serif;
 }
