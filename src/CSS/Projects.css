@@ -10,12 +10,14 @@
 h3 {
     color: white;
     font-family: royal crescent;
-    /* text-shadow: 1px 1px black; */
+    text-shadow: 1px 1px #e6960221;
     text-align:center;
 }
 
 #title {
     padding: 10px;
+    text-shadow: 1px 1px #e6960221;
+
 }
 
 #proj-p {
@@ -24,10 +26,10 @@ h3 {
 }
 
 .portfolio-img {
-    height:15vh;
+    height:20vh;
     border-radius: .5rem;
     background-size:cover;
-    background-position: center 50%;
+    background-position: center 20%;
     border: .1rem solid black;
 }
 
@@ -39,8 +41,8 @@ h3 {
   }
   
   .project {
-    border: .4rem solid black;
-    border-radius: .5rem;
+    border: .4rem solid rgba(245, 131, 0, 0.418);
+    border-radius: 1rem;
     margin: 2rem;
     padding: 0.1rem 2.5rem rem 2.5rem;
     width: 20rem;
