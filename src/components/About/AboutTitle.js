@@ -24,7 +24,7 @@ export default class AboutTitle extends Component {
                 <div className="roles" 
                      grid="true"
                      onClick={this.toggleContent}>
-                        <Flip bottom delay={2000}>
+                        <Flip bottom delay={3000}>
                             <p><strong>
                                <a href="#" 
                                   className="effect-shine">

@@ -8,7 +8,7 @@ export default class Header extends Component {
         return (
             <React.Fragment>
                 <div className="header">
-                    <Zoom bottom duration={1500}>
+                    <Zoom bottom duration={1500} delay={1000}>
                         <h1 className="name">Chris Duenas</h1>
                     </Zoom>
                     <About/>
