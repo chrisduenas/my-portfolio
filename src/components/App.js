@@ -9,7 +9,7 @@ import Contact from './Contact';
 class App extends Component {
   render() {
     return (
-     <div className="bartender ui fluid">
+     <div className="bartender scroll">
        <Nav/>
        <Header/>
        <Projects/>

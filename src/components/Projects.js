@@ -18,14 +18,14 @@ export default class Projects extends Component {
         };
 
         return (
-            <div className="project-section">
-                        <h3>My Projects</h3>
-                        <Grid className="projects" grid="true">
-                            <Grid.Row>
-                                { imageMap() }
-                            </Grid.Row>
-                        </Grid>
-            </div>
+                <div id="projects" className="project-section fluid scroll">
+                            <h3>My Projects</h3>
+                            <Grid className="projects" grid="true">
+                                <Grid.Row>
+                                    { imageMap() }
+                                </Grid.Row>
+                            </Grid>
+                </div>
         );
     }
 }
