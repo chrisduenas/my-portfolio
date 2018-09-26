@@ -5,11 +5,11 @@ import '../CSS/Contact.css';
 export default class Contact extends Component {
     render() {
         return (
-            <div className="contact">
+            <div id="contact" className="contact ui fluid">
                 <div className="ui container">
                     <h2 className="contact-title">Contact Me</h2>
                 <div className="resume">
-                        <a className="social-link" href="https://docs.google.com/document/d/1-FxdnP0UzH3IjLO9JN0woLFNAZbXztanhoW9vUPkh-Y/edit?usp=sharing" download="resume.pdf">
+                        <a className="social-link" href="https://docs.google.com/document/d/e/2PACX-1vRYWCPQvB-2buIGqKlbHQitxgouYOUN5X8zhC8-fTYbWkoNNshblxQGKUTgvrAGCJGVTxDzLbgkD-cT/pub" download="resume.pdf">
                             <p><strong>Resume</strong></p>
                             <Icon name='file alternate outline' size='big' /> 
                         </a>

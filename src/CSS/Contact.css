@@ -1,7 +1,15 @@
 .contact {
-    background-color:rgba(0, 0, 0, 0.945);
-
-    min-height:30vh;
+    /* background-color:rgba(0, 0, 0, 0.945); */
+    background: linear-gradient( rgba(3, 22, 22, 0.5),
+     rgba(0, 0, 0, 0.89) ),
+      url(../Media/darkcode.jpg);
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size:cover;
+      width: 100%;
+    min-height: 90vh;
+    width: 100%;
 }
 
 

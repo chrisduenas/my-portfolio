@@ -5,26 +5,30 @@ import '../CSS/Nav.css';
 export default class Nav extends Component {
     state ={ activeItem: 'about'}
 
+
     handleItemClick = (e, { name } ) => this.setState({ activeItem: name });
 
     render() {
         const { activeItem } = this.state
         return (
-            <div className="nav-menu">
-                <Menu pointing secondary className="ui fixed top inverted menu">
-                    <Menu.Item>
-                        <img class="ui avatar image tiny" src={require("../Media/logo.png")} alt="logo"/>                    
+            <div id="home" className="nav-menu">
+                <Menu className="ui fixed top secondary menu">
+                    <Menu.Item><a href="#home">
+                        <img class="ui avatar image tiny" src={require("../Media/logo.png")} alt="logo"/>
+                        </a>                   
                     </Menu.Item>
                     <Menu.Item
+                        href="#about"
                         position="right"
                         name='about'
                         active={activeItem === 'about'}
                         onClick={this.handleItemClick}
                     >
-                        <p><strong>About</strong></p>
+                    <p><strong>About</strong></p>
                     </Menu.Item>
 
                     <Menu.Item
+                        href="#projects"
                         name='projects'
                         active={activeItem === 'projects'}
                         onClick={this.handleItemClick}
@@ -32,6 +36,7 @@ export default class Nav extends Component {
                         <p><strong>Projects</strong></p>
                     </Menu.Item>
                     <Menu.Item
+                        href="#contact"
                         name='contact'
                         active={activeItem === 'contact'}
                         onClick={this.handleItemClick}
@@ -40,6 +45,8 @@ export default class Nav extends Component {
                     </Menu.Item>
                 </Menu>
                 </div>
+                
         )
     }
 };
+
