@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Flip from 'react-reveal/Flip';
 
 export default class AboutTitle extends Component {
     constructor(props) {
@@ -23,14 +24,15 @@ export default class AboutTitle extends Component {
                 <div className="roles" 
                      grid="true"
                      onClick={this.toggleContent}>
-                       <p>
-                           <strong>
+                        <Flip bottom delay={2000}>
+                            <p><strong>
                                <a href="#" 
-                                className="effect-shine">
-                                {person.title}
+                                  className="effect-shine">
+                                    {person.title}
                                </a>
                             </strong>
-                       </p>
+                            </p>
+                        </Flip>
                 </div>
             </div>
         )
