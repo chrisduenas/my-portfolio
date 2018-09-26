@@ -4,12 +4,13 @@ import Nav from './Nav';
 import Header from './Header';
 import Projects from './Projects';
 import Contact from './Contact';
+import zenscroll from 'zenscroll';
 
 
 class App extends Component {
   render() {
     return (
-     <div className="bartender scroll">
+     <div>
        <Nav/>
        <Header/>
        <Projects/>

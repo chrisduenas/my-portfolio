@@ -26,7 +26,7 @@ export default class AboutTitle extends Component {
                      onClick={this.toggleContent}>
                         <Flip bottom delay={3000}>
                             <p><strong>
-                               <a href="#" 
+                               <a href="" 
                                   className="effect-shine">
                                     {person.title}
                                </a>
