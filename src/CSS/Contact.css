@@ -14,7 +14,7 @@
 
 
 .contact-title {
-    color: #e9a11bdc;
+    color: rgba(242, 176, 56, 1.0);
     font-family: royal crescent;
     text-shadow: 1px 1px black;
     text-align:center;
@@ -27,7 +27,7 @@
 }
 
 .social-link {
-    color: #e9a11bdc;
+    color: rgba(242, 176, 56, 1.0);
     text-shadow: 1px 1px black;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@
 }
 
 .resume {
-    color: #e9a11bdc;
+    color: rgba(242, 176, 56, 1.0);
     text-shadow: 1px 1px black;
     display: flex;
     justify-content: space-evenly;

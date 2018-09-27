@@ -43,6 +43,14 @@ export default class Nav extends Component {
                     >
                         <p><strong>Contact</strong></p>
                     </Menu.Item>
+                    <Menu.Item
+                        href={process.env.PUBLIC_URL + '/resume.pdf'} download="resume.pdf"
+                        name='resume'
+                        active={activeItem === 'resume'}
+                        onClick={this.handleItemClick}
+                    >
+                        <p><strong>Resume</strong></p>
+                    </Menu.Item>
                 </Menu>
                 </div>
                 
