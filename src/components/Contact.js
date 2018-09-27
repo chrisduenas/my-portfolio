@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ContactForm from './ContactForm';
 import SocialLinks from './SocialLinks';
-import { Icon, Divider } from 'semantic-ui-react';
+import { Divider } from 'semantic-ui-react';
 import '../CSS/Contact.css';
 
 export default class Contact extends Component {
