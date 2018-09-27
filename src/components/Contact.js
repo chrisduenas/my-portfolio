@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Icon, Divider } from 'semantic-ui-react';
+import ContactForm from './ContactForm';
+import SocialLinks from './SocialLinks';
+import { Icon, Divider } from 'semantic-ui-react';
 import '../CSS/Contact.css';
 
 export default class Contact extends Component {
@@ -8,45 +10,22 @@ export default class Contact extends Component {
             <div id="contact" className="contact ui fluid">
                 <div className="ui container">
                     <h2 className="contact-title">Contact Me</h2>
-                <div className="resume">
+                    <div className="resume">
                         <a className="social-link" href="https://docs.google.com/document/d/e/2PACX-1vRYWCPQvB-2buIGqKlbHQitxgouYOUN5X8zhC8-fTYbWkoNNshblxQGKUTgvrAGCJGVTxDzLbgkD-cT/pub" download="resume.pdf">
                             <p><strong>Resume</strong></p>
                             <Icon name='file alternate outline' size='big' /> 
-                        </a>
-                        <a className="social-link" href='mailto:chrisduenasonline@gmail.com'>
-                            <p><strong>Email</strong></p>
-                            <Icon name='mail' size='big' /> 
-                        </a>
-                </div>
-                <Divider section/>
-                    <Grid className="columns">
-                        <Grid.Row>
-                            <Grid.Column>
-                            <a className="social-link" href='https://github.com/chrisduenas' target="blank">
-                            <Icon name="github" size='big' /> 
-                            </a>
-                            </Grid.Column>
-                            <Grid.Column>
-                            <a className="social-link" href='https://www.linkedin.com/in/christopherduenas/' target="blank">
-                            <Icon name='linkedin' size='big' /> 
-                            </a>
-                            </Grid.Column>
-                            <Grid.Column>
-                            <a className="social-link" href='https://www.facebook.com/Chris.A.Duenas' target="blank">
-                                <Icon name='facebook' size='big' /> 
-                                </a>
-                            </Grid.Column>
-                            <Grid.Column>
-                                <a className="social-link" href='https://twitter.com/christopherdue' target="blank">
-                                <Icon name='twitter' size='big' /> 
-                                </a>
-                            </Grid.Column>
-                        </Grid.Row>
-                    </Grid>
-                    <div className="ui container">
-                        <p>Copyright Chris Duenas 2018</p>
+                        </a>            
                     </div>
-            </div>
+                    <Divider section/>
+
+                    <ContactForm/>
+                    <SocialLinks/>
+
+                    <Divider section/>
+                </div>
+                <div>
+                    <p>Copyright Chris Duenas 2018</p>
+                </div>
             </div>
         )
     }
