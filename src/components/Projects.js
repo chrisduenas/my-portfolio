@@ -19,7 +19,7 @@ export default class Projects extends Component {
 
         return (
                 <div id="projects" className="project-section fluid scroll">
-                            <h3>My Projects</h3>
+                            <h2>My Projects</h2>
                             <Grid className="projects" grid="true">
                                 <Grid.Row>
                                     { imageMap() }

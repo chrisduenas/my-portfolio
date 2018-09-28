@@ -2,7 +2,7 @@
 
 #projects {
     background: linear-gradient(
-        rgb(35, 92, 94),rgb(0, 0, 0) );
+        rgb(24, 67, 71),   rgb(0, 0, 0));
       width: 100%;
 
 }
@@ -14,7 +14,7 @@
     opacity: 0.9
 }
 
-#projects h3 {
+#projects h2 {
     font-family: royal crescent;
     margin-top:3rem;
     color: white;
@@ -49,7 +49,7 @@
   }
   
   .project {
-    border: .4rem solid rgba(248, 167, 73, 0.658);
+    border: .4rem solid rgba(248, 166, 73, 0.986);
     border-radius: 1rem;
     margin: 3rem;
     padding: 0.1rem 2.5rem rem 2.5rem;

@@ -39,8 +39,3 @@
     display:flex;
     justify-content: center;
 }
-
-div.scroll {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-    }

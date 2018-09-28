@@ -1,5 +1,4 @@
 .contact {
-    /* background-color:rgba(0, 0, 0, 0.945); */
     background: linear-gradient( rgba(3, 22, 22, 0.5),
      rgba(0, 0, 0, 0.89) ),
       url(../Media/darkcode.jpg);
@@ -14,7 +13,7 @@
 
 
 .contact-title {
-    color: rgba(242, 176, 56, 1.0);
+    color: rgba(248, 166, 73, 0.986);
     font-family: royal crescent;
     text-shadow: 1px 1px black;
     text-align:center;
@@ -27,7 +26,7 @@
 }
 
 .social-link {
-    color: rgba(242, 176, 56, 1.0);
+    color: rgba(248, 166, 73, 0.986);
     text-shadow: 1px 1px black;
     display: flex;
     justify-content: center;
