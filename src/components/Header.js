@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../CSS/Header.css';
-import About from './About';
+import Roles from './Roles';
 import Zoom from 'react-reveal/Zoom';
 
 export default class Header extends Component {
@@ -11,7 +11,7 @@ export default class Header extends Component {
                     <Zoom bottom duration={1500} delay={1000}>
                         <h1 className="name">Chris Duenas</h1>
                     </Zoom>
-                    <About/>
+                    <Roles/>
                 </div>
             </React.Fragment>
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Flip from 'react-reveal/Flip';
 
-export default class AboutTitle extends Component {
+export default class RoleTitle extends Component {
     constructor(props) {
         super(props)
         this.state={
