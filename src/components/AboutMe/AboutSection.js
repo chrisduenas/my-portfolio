@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image } from 'semantic-ui-react';
+import { Image, Responsive } from 'semantic-ui-react';
 
 export default class AboutSection extends Component {
     render() {
@@ -7,7 +7,7 @@ export default class AboutSection extends Component {
             <div>
             <div className="ui container about">
                     <div className="about-image">
-                        <Image src={require("../../Media/portrait.jpg")} alt="portrait" size="medium"/>
+                            <Image src={require("../../Media/portrait.jpg")} alt="portrait" size="medium"/>
                         <p>
                             You're such a fuckin' ho
                                 When the first time they ask you if you want sparklin' or still?

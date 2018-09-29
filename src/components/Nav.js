@@ -14,7 +14,8 @@ export default class Nav extends Component {
             <div id="home" className="nav-menu">
                 <Responsive minWidth={768}>
                     <Menu className="ui fixed top secondary menu">
-                        <Menu.Item><a href="#home">
+                        <Menu.Item>
+                            <a href="#home">
                             <img class="ui avatar image tiny" src={require("../Media/logo.png")} alt="logo"/>
                             </a>                   
                         </Menu.Item>

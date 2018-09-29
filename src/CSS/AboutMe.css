@@ -34,9 +34,18 @@
 }
 
 .about-image p {
-    padding: 20px;
+    padding: 15px;
 }
 
 .even {
     flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {    
+.about-image img {
+    width:200px;
+    height: auto;
+
+}
+
 }
