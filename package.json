@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "assert": "^1.4.1",
+    "domutils": "^1.7.0",
     "flat": "^4.1.0",
     "npm": "^6.4.1",
     "react": "^16.4.2",
