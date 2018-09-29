@@ -18,7 +18,6 @@ export default class AboutSection extends Component {
                                         <Image src={require("../../Media/portrait.jpg")} alt="portrait" size="small"/>
                                     </Reveal.Content>
                                 </Reveal>
-                            </div>
                             <div className="about-p">
                                 <p>
                                     You're such a fuckin' ho
@@ -30,6 +29,7 @@ export default class AboutSection extends Component {
                                         I'm a sick fuck, I like a quick fuck (whoop!)
                                         I'm a sick fuck, I like a quick fuck (whoop!)
                                 </p>
+                                </div>
                             </div>
                         </div>
                     </Grid.Row>
@@ -38,10 +38,10 @@ export default class AboutSection extends Component {
                     <div className="about-image even">
                         <Reveal animated='rotate right'>
                             <Reveal.Content visible>
-                                <Image src={require("../../Media/family.jpg")} alt="family" size="massive"/>
+                                <Image src={require("../../Media/family.jpg")} alt="family" size="large"/>
                             </Reveal.Content>
                             <Reveal.Content hidden>
-                                <Image src={require("../../Media/family.jpg")} alt="family" size="massive"/>
+                                <Image src={require("../../Media/family.jpg")} alt="family" size="large"/>
                             </Reveal.Content>
                         </Reveal>
                             <p>
@@ -81,8 +81,8 @@ export default class AboutSection extends Component {
                     </div>
                 </div>
                 </Grid.Row>
-                    </Grid>
-            </div>
+            </Grid>
+        </div>
         )
     }
 }

@@ -44,8 +44,18 @@
 }
 
 @media (max-width: 768px) {
+    .about {
+        display:flex;
+        justify-content: center;
+         flex-wrap: inherit;
+    }
+    .about-image {
+        display:flex; 
+        flex-direction: column;
+        align-items: center;
+    }
     .about-image p {
         display:flex;
- 
+        padding: 50px;
     }
 }
