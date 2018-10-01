@@ -12,10 +12,10 @@ export default class AboutSection extends Component {
                             <div className="about-image">
                                 <Reveal animated='rotate left'>
                                     <Reveal.Content visible>
-                                        <Image src={require("../../Media/portrait.jpg")} alt="portrait" size="small"/>
+                                        <Image src={require("../../Media/portrait.jpg")} alt="portrait" size="large"/>
                                     </Reveal.Content>
                                     <Reveal.Content hidden>
-                                        <Image src={require("../../Media/portrait.jpg")} alt="portrait" size="small"/>
+                                        <Image src={require("../../Media/portrait.jpg")} alt="portrait" size="large"/>
                                     </Reveal.Content>
                                 </Reveal>
                             <div className="about-p">
@@ -38,10 +38,10 @@ export default class AboutSection extends Component {
                     <div className="about-image even">
                         <Reveal animated='rotate right'>
                             <Reveal.Content visible>
-                                <Image src={require("../../Media/family.jpg")} alt="family" size="large"/>
+                                <Image src={require("../../Media/family.jpg")} alt="family" size="massive"/>
                             </Reveal.Content>
                             <Reveal.Content hidden>
-                                <Image src={require("../../Media/family.jpg")} alt="family" size="large"/>
+                                <Image src={require("../../Media/family.jpg")} alt="family" size="massive"/>
                             </Reveal.Content>
                         </Reveal>
                             <p>

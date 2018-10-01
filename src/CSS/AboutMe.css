@@ -47,15 +47,16 @@
     .about {
         display:flex;
         justify-content: center;
-         flex-wrap: inherit;
+        flex-wrap: inherit;
     }
     .about-image {
+        padding: 30px;
         display:flex; 
         flex-direction: column;
         align-items: center;
     }
     .about-image p {
         display:flex;
-        padding: 50px;
+        padding: 5px;
     }
 }
