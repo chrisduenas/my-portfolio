@@ -11,10 +11,10 @@ export default class AboutSection extends Component {
                             <div className="about-image">
                                 <h5>Full Stack Developer with Entrepreneurial Spirit</h5>
                                     <Responsive minWidth={768}>
-                                        <Image src={require("../../Media/suit.jpg")} alt="portrait" size="medium"/>
+                                        <Image src={require("../../Media/suit.jpg")} alt="portrait" size="large"/>
                                     </Responsive>
                                     <Responsive maxWidth={768}>
-                                        <Image src={require("../../Media/suit.jpg")} alt="portrait" size="small"/>
+                                        <Image src={require("../../Media/suit.jpg")} alt="portrait" size="medium"/>
                                     </Responsive>
                             </div>
                             <div className="about-p">

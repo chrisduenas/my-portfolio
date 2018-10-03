@@ -9,14 +9,14 @@
    {   
         "title": "Overtime Tracker",
         "imgName": "overtime",
-        "description": "Under Construction... This is a Rails Application that tracks employee overtime",
-        "linkTo": ""
+        "description": "Under Construction... This is a Rails Application that tracks employee overtime"
+        
     },
    {
        "title": "Workout Randomizer",
        "imgName": "workout",
-       "description": "Coming soon...",
-       "linkTo": ""
+       "description": "Coming soon..."
+       
    }
     ]
 }
