@@ -26,11 +26,15 @@
 }
 
 .social-link {
+    padding: 10px;
     color: rgba(248, 166, 73, 0.986);
-    text-shadow: 1px 1px black;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.social-link:hover {
+    color: white;
 }
 
 .resume {
@@ -38,5 +42,12 @@
     text-shadow: 1px 1px black;
     display: flex;
     justify-content: space-evenly;
+    padding: 10px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 10px;
 }

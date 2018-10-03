@@ -2,16 +2,11 @@
         {  
             "id": 1,
             "title": "Developer",
-            "description": "As a recent Wyncode graduate, I am now seeking a full time role as a Full Stack Developer. During my time at Wyncode, I learned HTML, CSS, JavaScript with libraries such as jQuery and React, Ruby with Ruby on Rails framework and Postgres. I was also exposed to Agile methodologies, Test Driven Development using Rspec and Capybara, along with Express for Node.js. I am excited to learn, advance my skills, and start my career!"
+            "description": "Recent Wyncode graduate, now seeking a full time role as a Full Stack Developer. During my time at Wyncode, I learned HTML, CSS, JavaScript with libraries such as jQuery and React, Ruby with Ruby on Rails framework and Postgres. I was also exposed to Agile methodologies, Test Driven Development using Rspec and Capybara, along with Express for Node.js. I am excited to learn, advance my skills, and start a new career!"
         },
         {
             "id": 2,
             "title": "Mixologist",
-            "description": "Mixologist? Bartender? What's the difference?! As a Bartender for many years , focusing on attending guests, making them feel welcomed, and entertained is key. We move quick and perform under pressure at high volume when needed. As a Mixologist , designing high quality cocktails with a superior knowledge of spirits is just as important. Mixology involves  preparation of house-made syrups, bitters, liquor infusions and other ingredients for quality cocktails that fit the style of the establishment. "
-        },
-        {
-            "id": 3,
-            "title": "Fitness Enthusiast",
-            "description": "I enjoy staying healthy and hitting the gym with a plan at least four days a week. I focus mainly on weightlifting for building mass and calisthenics for staying toned and athletic. I recently started doing yoga and running more often. Switching my routines is always something that has always challenged me and avoided plateaus. Of course, there have been days where I skipped exercise but one ritual that I always stick to is maintaining a balanced diet.  I prepare my meals for the week and portion them accordingly. Meal prepping is important to me I have continued doing so the past four years."
+            "description": "Designing cocktails in Wynwood, FL since 2015 through spirit knowledge, preparation of house-made syrups, liquor infusions, and other ingredients to create quality drinks. *BarSmarts Certified"
         }
 ]

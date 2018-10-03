@@ -9,14 +9,13 @@ export default class Project extends Component {
         let link = this.props.linkTo;
 
         return (
-            <div className="project">
-                <h5 id="title">{this.props.title}</h5>
-                <a href={link} target="blank">
-                    <div className={ imgClass }></div>
-                </a>
-                <p id="proj-p">{this.props.description}</p>
-            </div>
-
+            <a href={link} target="blank">
+                <div className="project">
+                    <h5 id="title">{this.props.title}</h5>
+                        <div className={ imgClass }></div>
+                    <p id="proj-p">{this.props.description}</p>
+                </div>
+            </a>
         )
     }
 };

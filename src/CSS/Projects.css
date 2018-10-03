@@ -48,22 +48,26 @@
     justify-content: space-evenly;
   }
   
-  .project {
-    border: .4rem solid rgba(248, 166, 73, 0.986);
-    border-radius: 1rem;
-    margin: 3rem;
-    padding: 0.1rem 2.5rem rem 2.5rem;
-    width: 20rem;
-    height: 20rem;
-    text-align: center;
-    color: white;
-    background: rgba(0,0,0,0.4);
-    text-shadow: 0 0 .9rem black;
-  }
+.project {
+border: .4rem solid rgba(141, 93, 38, 0.986);
+border-radius: 1rem;
+margin: 3rem;
+padding: 0.1rem 2.5rem rem 2.5rem;
+width: 20rem;
+height: 20rem;
+text-align: center;
+color: white;
+background: rgba(0,0,0,0.4);
+text-shadow: 0 0 .9rem black;
+}
 
-    section .project > div {
-    padding: 25px 0 25px 0px; 
-    }
+.project:hover {
+    border: .4rem solid rgba(248, 166, 73, 0.986);
+}
+
+section .project > div {
+padding: 25px 0 25px 0px; 
+}
   
 
 .luna {
