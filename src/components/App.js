@@ -10,6 +10,10 @@ import zenscroll from 'zenscroll';
 
 class App extends Component {
   render() {
+    const defaultDuration = 1000;
+    const edgeOffset = -9;
+    zenscroll.setup(defaultDuration, edgeOffset)  
+
     return (
      <div>
        <Nav/>

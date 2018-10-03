@@ -1,4 +1,5 @@
-.contact {
+
+#contact {
     background: linear-gradient( rgba(3, 22, 22, 0.5),
      rgba(0, 0, 0, 0.89) ),
       url(../Media/darkcode.jpg);
@@ -7,22 +8,24 @@
       background-repeat: no-repeat;
       background-size:cover;
       width: 100%;
-    min-height: 90vh;
-    width: 100%;
+    min-height: 100vh;
+    padding: 12px;
 }
 
 
-.contact-title {
+#contact h2{
     color: rgba(248, 166, 73, 0.986);
     font-family: royal crescent;
-    text-shadow: 1px 1px black;
+    text-shadow: 3px 3px black;
     text-align:center;
-    padding: 40px;
+    padding:30px;
+    margin-top:3rem;
 }
 
 .columns {
     display: flex;
     justify-content: center;
+    align-items:center;
 }
 
 .social-link {
@@ -50,4 +53,12 @@
     flex-direction: column;
     align-items: center;
     padding: 10px;
+}
+
+@media (max-width:768px) {
+    .columns {
+        display: flex;
+        justify-content: space-evenly;
+        align-items:center;
+    }
 }

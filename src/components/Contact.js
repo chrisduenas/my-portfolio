@@ -7,7 +7,7 @@ import '../CSS/Contact.css';
 export default class Contact extends Component {
     render() {
         return (
-            <div id="contact" className="contact ui fluid">
+            <div id="contact" className="ui fluid">
                 <div className="ui container">
                     <h2 className="contact-title">Contact Me</h2>
                     <Divider section/>

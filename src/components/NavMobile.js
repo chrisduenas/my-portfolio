@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Dropdown, DropdownDivider } from 'semantic-ui-react';
+import { Menu, Dropdown, DropdownDivider, Icon } from 'semantic-ui-react';
 
 
 export default class NavMobile extends Component {
@@ -41,6 +41,7 @@ export default class NavMobile extends Component {
                                         active={activeItem === 'resume'}
                                         onClick={this.handleItemClick}>
                                             Resume
+                                            <Icon name='download' className="icon-resume"/>
                                 </Dropdown.Item>
 
                                 <DropdownDivider/>

@@ -11,3 +11,13 @@
 
     font-family: 'Times New Roman', Times, serif;
 }
+
+.icon-resume {
+    color:white;
+}
+
+@media (max-width: 768px) {
+    .icon-resume {
+        color:rgba(0, 0, 0, 0.671);
+    }
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu } from 'semantic-ui-react';
+import { Menu, Icon } from 'semantic-ui-react';
 
 export default class NavDesktop extends Component {
 
@@ -48,6 +48,7 @@ export default class NavDesktop extends Component {
                         active={activeItem === 'resume'}
                         onClick={this.handleItemClick}
                     >
+                        <Icon name='download' className="icon-resume"/>
                         <p><strong>Resume</strong></p>
                     </Menu.Item>
                 </Menu>

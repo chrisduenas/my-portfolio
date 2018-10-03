@@ -3,13 +3,13 @@
 #projects {
     background: linear-gradient(
         rgb(24, 67, 71),   rgb(0, 0, 0));
-      width: 100%;
+    min-height: 65vh;
+    width: 100%;
 
 }
 .project-section{
     background-color: rgba(22, 21, 21, 0.726);
-    /* background-color:rgba(0, 0, 0, 0.651); */
-    min-height: 65vh;
+    height:100%;
     padding:40px;
     opacity: 0.9
 }
@@ -18,7 +18,7 @@
     font-family: royal crescent;
     margin-top:3rem;
     color: white;
-    text-shadow: 1px 1px #e6960221;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.411);
     text-align:center;
 }
 

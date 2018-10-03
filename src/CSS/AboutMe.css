@@ -1,26 +1,40 @@
 #about {
-    background-color:black;
+    background: linear-gradient( rgba(1, 7, 7, 0.897),
+    rgba(0, 0, 0, 0.897) ),
+     url(../Media/highrise.jpg);
+     background-size:cover;
+     background-position: relative;
+     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    min-height: 50vh;
-    padding: 50px; 
+    min-height: 80vh;
+    padding: 20px; 
 }
 
+#about h2 {
+    margin-top:3rem;
+}
 .ui.container.about {
-    padding: 10px;
+    padding: 30px;
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .about-header h2{
     color:white;
+    text-shadow: 3px 3px black;
     font-family: royal crescent;
-    padding:20px;
+    padding:10px;
+}
+
+.about-image h5{
+    font-family: 'Cochin';
+    padding: 5px;
 }
 
 .about-image img{
-    border: 0.3rem outset white;
+    border: 0.2rem outset rgb(255, 192, 110);
     border-radius: 0.5rem;
     opacity: 0.8;
 }
@@ -30,12 +44,16 @@
 }
 
 .about-p p {
-    font-family: serif;
+    font-family: 'Cochin';
     font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:35px;
+    padding:50px;
+}
+
+.even {
+    flex-direction: row-reverse;
 }
 
 @media (max-width: 768px) {
@@ -45,7 +63,7 @@
         flex-wrap: inherit;
     }
     .about-image {
-        padding: 50px 50px 10px 50px;
+        padding: 20px 40px 10px 40px;
         display:flex; 
         flex-direction: column;
         align-items: center;
