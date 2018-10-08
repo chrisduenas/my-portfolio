@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Responsive, Reveal, Grid } from 'semantic-ui-react';
+import { Image, Responsive, Grid } from 'semantic-ui-react';
 
 export default class AboutSection extends Component {
 
