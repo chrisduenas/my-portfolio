@@ -9,7 +9,8 @@
    {   
         "title": "Overtime Tracker",
         "imgName": "overtime",
-        "description": "Under Construction... This is a Rails Application that tracks employee overtime"
+        "description": "Under Construction... This is a Rails Application that tracks employee overtime",
+        "linkTo": "https://overtime-trackr.herokuapp.com"
         
     },
    {
