@@ -1,22 +1,22 @@
 {
     "allProjects": [
    {
-       "title": "Cocktail Party",
+       "title": "BarGuide",
        "imgName": "cocktailparty",
-       "description": "An App that helps you find bartenders for your events",
-       "linkTo": "https://cocktail-party.herokuapp.com"
+       "description": "Bartender learning platform using Corvid & the Wix editor",
+       "linkTo": "https://www.barguide.info"
    }, 
    {   
         "title": "Overtime Tracker",
         "imgName": "overtime",
-        "description": "Under Construction... This is a Rails Application that tracks employee overtime",
+        "description": "This is a Ruby on Rails Application that tracks employee overtime",
         "linkTo": "https://overtime-trackr.herokuapp.com"
         
     },
    {
-       "title": "Workout Randomizer",
+       "title": "Cubatoriano Fan Page",
        "imgName": "workout",
-       "description": "Coming soon..."
+       "description": "Fan site for Cubatoriano sketch comedy"
        
    }
     ]
