@@ -28,9 +28,10 @@
     text-shadow: 1px 1px #e6960221;
 }
 
-#proj-p {
+#description {
     font-family: Cochin;
     font-size: 14px;
+    padding: 5px;
 }
 
 .portfolio-img {
@@ -49,16 +50,16 @@
   }
   
 .project {
-border: .4rem solid rgba(141, 93, 38, 0.986);
-border-radius: 1rem;
-margin: 3rem;
-padding: 0.1rem 2.5rem rem 2.5rem;
-width: 20rem;
-height: 20rem;
-text-align: center;
-color: white;
-background: rgba(0,0,0,0.4);
-text-shadow: 0 0 .9rem black;
+    border: .4rem solid rgba(141, 93, 38, 0.986);
+    border-radius: 1rem;
+    margin: 3rem;
+    padding: 0.1rem 2.5rem rem 2.5rem;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .9rem black;
 }
 
 .project:hover {
@@ -70,12 +71,12 @@ padding: 25px 0 25px 0px;
 }
   
 
-.luna {
-    background-image: url(../Media/luna.jpg);    
+.cubatoriano {
+    background-image: url(../Media/cubatoriano.jpg);    
 }
 
-.workout {
-    background-image: url(../Media/workout.jpg);
+.overtime {
+    background-image: url(../Media/overtime.jpeg);
 }
 
 .cocktailparty {

@@ -9,12 +9,12 @@ export default class AboutSection extends Component {
                     <Grid.Row>
                         <div className="ui container about">
                             <div className="about-image">
-                                <h5>Full Stack Developer with Entrepreneurial Spirit</h5>
+                                <h5> Web Developer</h5>
                                     <Responsive minWidth={768}>
-                                        <Image src={require("../../Media/suit.jpg")} alt="portrait" size="large"/>
+                                        <Image src={require("../../Media/jameson.jpg")} alt="portrait" size="massive"/>
                                     </Responsive>
                                     <Responsive maxWidth={768}>
-                                        <Image src={require("../../Media/suit.jpg")} alt="portrait" size="medium"/>
+                                        <Image src={require("../../Media/jameson.jpg")} alt="portrait" size="medium"/>
                                     </Responsive>
                             </div>
                             <div className="about-p">

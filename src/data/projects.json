@@ -1,33 +1,23 @@
 {
     "allProjects": [
    {
-<<<<<<< HEAD
        "title": "BarGuide",
        "imgName": "cocktailparty",
        "description": "Bartender learning platform using Corvid & the Wix editor",
-=======
-       "title": "Bar Guide",
-       "imgName": "cocktailparty",
-       "description": "Bartender learning platform using Corvid & Wix Editor",
->>>>>>> f6ace77fc805600db341f16a1e9d72267345aad9
        "linkTo": "https://www.barguide.info"
    }, 
    {   
         "title": "Overtime Tracker",
         "imgName": "overtime",
-        "description": "This is a Ruby on Rails Application that tracks employee overtime",
+        "description": "This is a Ruby on Rails Application that tracks employee overtime. Contact me below for login credentials.",
         "linkTo": "https://overtime-trackr.herokuapp.com"
         
     },
    {
        "title": "Cubatoriano Fan Page",
-       "imgName": "workout",
-<<<<<<< HEAD
-       "description": "Fan site for Cubatoriano sketch comedy"
-=======
-       "description": "Sketch comedy comedian fan site using Wix editor",
+       "imgName": "cubatoriano",
+       "description": "Fan site for Cubatoriano sketch comedy. Built using the Wix Editor",
        "linkTo": "https://www.cubatoriano.com"
->>>>>>> f6ace77fc805600db341f16a1e9d72267345aad9
        
    }
     ]

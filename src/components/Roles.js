@@ -46,7 +46,7 @@ constructor(props){
                 <div className="roles">
                     {roles.map(this.eachRole)}
                 </div>
-                <div>
+                <div> 
                     { segments ? roleDescription : null }
                 </div>
             </React.Fragment>

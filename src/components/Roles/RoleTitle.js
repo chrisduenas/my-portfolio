@@ -22,13 +22,13 @@ export default class RoleTitle extends Component {
         return (
             <div>
                 <div className="roles" 
-                     grid="true"
-                     onClick={this.toggleContent}>
+                     grid="true">
                         <Flip bottom delay={3000}>
                             <p><strong>
                                <a href="" 
-                                  className="effect-shine">
-                                    {person.title}
+                                  className="effect-shine"
+                                  onClick={this.toggleContent}>
+                                  {person.title}
                                </a>
                             </strong>
                             </p>
