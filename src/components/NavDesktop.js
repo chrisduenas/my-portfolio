@@ -13,7 +13,7 @@ export default class NavDesktop extends Component {
                 <Menu className="ui fixed top secondary menu">
                     <Menu.Item>
                         <a href="#home">
-                            <img class="ui avatar image tiny" src={require("../Media/logo.png")} alt="logo"/>
+                            <img className="ui avatar image tiny" src={require("../Media/logo.png")} alt="logo"/>
                         </a>                   
                     </Menu.Item>
                     <Menu.Item

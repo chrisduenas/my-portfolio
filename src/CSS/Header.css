@@ -42,6 +42,22 @@
 
 @media (max-width: 768px) {
     .header {
+        background-image: url(../Media/building_view.jpg);
         min-height: 130vh;
+    }
+    .roles {
+        color:black;
+        
+        font-family: royal crescent;
+        display:flex;
+        justify-content:space-evenly;
+        /* padding: 10px; */
+    }
+    .roles a {
+        font-size: 20px;
+        text-shadow: -1px 0px white,
+		1px -1px black,
+		-1px 0px #000,
+		1px 0px  black;
     }
 }
