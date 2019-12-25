@@ -10,8 +10,8 @@ export default class NavMobile extends Component {
     render() {
         const { activeItem } = this.state
         return (
-            <Menu className="fixed inverted borderless compact">
-                        <Dropdown icon="content" className='link item'>
+            <Menu id="mobile" className="fixed inverted borderless compact">
+                        <Dropdown icon="content" className="link item" >
                             <Dropdown.Menu>
                                 <Dropdown.Item
                                         href="#about"
