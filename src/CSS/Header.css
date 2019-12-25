@@ -43,7 +43,8 @@
 @media (max-width: 768px) {
     .header {
         background-image: url(../Media/building_view.jpg);
-        min-height: 130vh;
+        background-size: 100%;
+
     }
     .roles {
         color:black;
