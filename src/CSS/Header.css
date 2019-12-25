@@ -40,10 +40,14 @@
     justify-content: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .header {
         background-image: url(../Media/building_view.jpg);
-        background-size: 100%;
+        background-size: cover;
+        background-attachment: fixed;
+        background-color:black;
+        background-repeat: no-repeat;
+        background-position: center center;
 
     }
     .roles {
