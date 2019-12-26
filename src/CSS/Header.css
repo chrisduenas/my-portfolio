@@ -42,6 +42,7 @@
 
 @media (max-width: 767px) {
     .header {
+        width: auto;
         background-image: url(../Media/building_view.jpg);
         background-size: cover;
         background-attachment: fixed;
