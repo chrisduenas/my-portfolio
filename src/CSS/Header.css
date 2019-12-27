@@ -44,15 +44,12 @@
 @media screen and (min-width: 320px) and (max-width:580px){
     .header {
         background: url('../Media/building_view.jpg') no-repeat center center fixed;
-        /* background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed; */
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        width: auto;
+        width: 100%;
+        max-width: 580px;
 
     }
 
