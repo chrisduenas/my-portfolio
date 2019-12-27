@@ -5,57 +5,61 @@
         rgb(24, 67, 71),   rgb(0, 0, 0));
     min-height: 85vh;
     width: 100%;
-
-}
-.project-section{
     background-color: rgba(22, 21, 21, 0.726);
-    height:100%;
-    padding:40px;
-    opacity: 0.9
+    padding:20px;
+    opacity: 0.9;
+    margin:auto;
+
 }
 
 #projects h2 {
+    display:flex;
+    justify-content: center;
+    align-content: center;
     font-family: royal crescent;
     margin-top:3rem;
     color: white;
     text-shadow: 3px 3px rgba(0, 0, 0, 0.411);
-    text-align:center;
+
 }
 
 #title {
-    padding: 10px;
     font-family: Cochin;
     text-shadow: 1px 1px #e6960221;
 }
 
 #description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     font-family: Cochin;
     font-size: 14px;
-    padding: 10px;
+    margin:15px;
 }
 
 .portfolio-img {
-    height:20vh;
+    height:150px;
+    width: 300px;
+    padding: 10px;
+    margin:auto;
     border-radius: .5rem;
     background-size:cover;
-    background-position: center 20%;
+    background-position: center;
     border: .1rem solid black;
 }
 
 .projects {
     display: flex;
-    flex: 1;
-    align-items: start;
     justify-content: space-evenly;
-  }
+
+  } 
   
 .project {
-    margin: 50px 50px 50px 0px;
+    padding: 10px;
+    margin: 15px;
     border: .4rem solid rgba(141, 93, 38, 0.986);
     border-radius: 1rem;
-    padding: 0.1rem 2.5rem rem 2.5rem;
     width: 100%;
-    text-align: center;
     color: white;
     background: rgba(0,0,0,0.4);
     text-shadow: 0 0 .9rem black;
@@ -65,13 +69,9 @@
     border: .4rem solid rgba(248, 166, 73, 0.986);
 }
 
-section .project > div {
-padding: 25px 0 25px 0px; 
-}
-  
 
 .cubatoriano {
-    background-image: url(../Media/cubatoriano.jpg);    
+    background-image: url(../Media/cubatoriano.jpg);
 }
 
 .overtime {
