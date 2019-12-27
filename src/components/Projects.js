@@ -18,7 +18,7 @@ export default class Projects extends Component {
         };
 
         return (
-                <div id="projects" className="project-section fluid scroll">
+                <div id="projects" className="fluid scroll">
                             <h2>My Projects</h2>
                             <Grid className="projects" grid="true">
                                 <Grid.Row>
