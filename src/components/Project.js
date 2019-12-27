@@ -13,7 +13,7 @@ export default class Project extends Component {
                 <div className="project">
                     <h5 id="title">{this.props.title}</h5>
                         <div className={ imgClass }></div>
-                    <p id="description">{this.props.description}</p>
+                        <p id="description">{this.props.description}</p>
                 </div>
             </a>
         )

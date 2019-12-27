@@ -3,20 +3,20 @@
    {
        "title": "BarGuide",
        "imgName": "cocktailparty",
-       "description": "Bartender learning platform using Corvid & the Wix editor",
+       "description": "Learn to Bartend | Wix editor & Corvid",
        "linkTo": "https://www.barguide.info"
    }, 
    {   
         "title": "Overtime Tracker",
         "imgName": "overtime",
-        "description": "This is a Ruby on Rails Application that tracks employee overtime. Contact me below for login credentials.",
+        "description": "Employee Overtime Tracker | Ruby on Rails.",
         "linkTo": "https://overtime-trackr.herokuapp.com"
         
     },
    {
        "title": "Cubatoriano Fan Page",
        "imgName": "cubatoriano",
-       "description": "Fan site for Cubatoriano sketch comedy. Built using the Wix Editor",
+       "description": "Sketch comedy Portfolio | Wix Editor",
        "linkTo": "https://www.cubatoriano.com"
        
    }
