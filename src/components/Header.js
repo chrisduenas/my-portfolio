@@ -7,10 +7,12 @@ export default class Header extends Component {
     render() {
         return (
                 <div className="header">
+                    <div>
                     <Zoom bottom duration={1000} delay={1000}>
                         <h1 className="name">Chris Duenas</h1>
                     </Zoom>
                     <Roles/>
+                    </div>
                 </div>
         )
     }
