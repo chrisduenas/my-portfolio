@@ -1,4 +1,5 @@
 .header {  
+    width: 100%;
     background-color: black;
     background: linear-gradient( rgba(0, 0, 0, 0.2),
      rgba(0, 0, 0, 0.2) ),
@@ -11,11 +12,6 @@
       justify-content: inherit;
       align-items: inherit;
     }
-
-.header img {
-    width: 100%;
-    display: block;
-}
 
 .name {
     color: white;
@@ -52,6 +48,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
+        width: auto;
 
     }
 
