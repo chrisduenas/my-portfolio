@@ -58,6 +58,18 @@
 }
 
 @media (max-width: 768px) {
+    #about {
+        background: linear-gradient( rgba(1, 7, 7, 0.897),
+        rgba(0, 0, 0, 0.897) ),
+         url(../Media/highrise.jpg);
+         background-size:cover;
+         background-position: center;
+         background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+    }
     .about {
         display:flex;
         justify-content: center;
