@@ -15,13 +15,13 @@ class App extends Component {
     zenscroll.setup(defaultDuration, edgeOffset)  
 
     return (
-     <div>
+     <React.Fragment>
        <Nav/>
        <Header/>
        <AboutMe/>
        <Projects/>
        <Contact/>
-     </div>
+     </React.Fragment>
     );
   }
 }
