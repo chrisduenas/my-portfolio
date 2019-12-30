@@ -9,8 +9,6 @@
       background-repeat: no-repeat;
       background-size:cover;
       height: 100vh;
-      justify-content: inherit;
-      align-items: inherit;
     }
 
 .name {
@@ -41,12 +39,11 @@
     justify-content: center;
 }
 
-@media only screen and (min-width: 320px) and (max-width:580px){
+@media only screen and (min-width: 320px) and (max-width:786px){
     .header {
-
+        margin: 0 auto;
         background: url('../Media/building_view.jpg');
-        background-position: center;
-        background-repeat: none;
+        background-position: center center;
         background-size: 100% 100%;
     }
     
