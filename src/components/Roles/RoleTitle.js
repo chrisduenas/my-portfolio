@@ -20,21 +20,20 @@ export default class RoleTitle extends Component {
     render() {
         const { person } = this.props
         return (
-            <div>
                 <div className="roles" 
                      grid="true">
                         <Flip bottom delay={3000}>
-                            <p><strong>
+                            <button id="role"
+                                    onClick={this.toggleContent}>
+                                <strong>
                                <a href="" 
-                                  className="effect-shine"
-                                  onClick={this.toggleContent}>
+                                  className="effect-shine">
                                   {person.title}
                                </a>
-                            </strong>
-                            </p>
+                                </strong>
+                            </button>
                         </Flip>
                 </div>
-            </div>
         )
     }
 }
