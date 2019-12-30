@@ -1,21 +1,19 @@
 @import url(https://www.1001fonts.com/royal-crescent-font.html);
 
 #projects {
+    display:flex;
+    flex-direction: column;
     background: linear-gradient(
         rgb(24, 67, 71),   rgb(0, 0, 0));
     min-height: 85vh;
     width: 100%;
     background-color: rgba(22, 21, 21, 0.726);
-    padding:20px;
     opacity: 0.9;
-    margin:auto;
+    margin: 0 auto;
 
 }
 
 #projects h2 {
-    display:flex;
-    justify-content: center;
-    align-content: center;
     font-family: royal crescent;
     margin-top:3rem;
     color: white;
@@ -50,13 +48,13 @@
 
 .projects {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
   } 
   
 .project {
-    padding: 10px;
-    margin: 15px;
+    margin:15px auto;
+    padding: 10px; 
     border: .4rem solid rgba(141, 93, 38, 0.986);
     border-radius: 1rem;
     width: 100%;

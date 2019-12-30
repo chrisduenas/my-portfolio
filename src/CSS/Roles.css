@@ -1,3 +1,12 @@
+#role {
+  background-color: rgb(9, 110, 110);
+  border-color: tan;
+  border-radius: 5px;
+  width: 10rem;
+  height: 4rem;
+}
+
+
 .role-description {
   padding:50px;
 }
@@ -29,4 +38,10 @@ p a {
   background-position: left center;
   color: #ef9671;
   transition: background-position 2000ms ease-out;
+}
+
+@media (max-width: 786px) {
+  #role {
+  background-color: rgb(43, 96, 196);
+  }
 }
