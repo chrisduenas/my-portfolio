@@ -2,8 +2,8 @@
     background: linear-gradient( rgba(1, 7, 7, 0.897),
     rgba(0, 0, 0, 0.897) ),
      url(../Media/highrise.jpg);
-     background-size:auto 100%;
-     background-position: relative;
+     background-size:cover;
+     background-position: center;
      background-attachment: fixed;
     display: flex;
     flex-direction: column;
