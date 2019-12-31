@@ -16,3 +16,7 @@ html, body {
     overflow-x:hidden;
     background-color:black;
 }
+
+body, .smooth-container {
+    scroll-behavior: smooth;
+}
