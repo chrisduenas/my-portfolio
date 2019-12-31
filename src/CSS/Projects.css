@@ -10,12 +10,14 @@
     background-color: rgba(22, 21, 21, 0.726);
     opacity: 0.9;
     margin: 0 auto;
+    padding: 12px;
 
 }
 
 #projects h2 {
     font-family: royal crescent;
     margin-top:3rem;
+    padding: 30px;
     color: white;
     text-shadow: 3px 3px rgba(0, 0, 0, 0.411);
 
