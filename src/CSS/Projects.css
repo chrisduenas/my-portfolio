@@ -5,7 +5,7 @@
     flex-direction: column;
     background: linear-gradient(
         rgb(24, 67, 71),   rgb(0, 0, 0));
-    min-height: 85vh;
+    /* min-height: 85vh; */
     width: 100%;
     background-color: rgba(22, 21, 21, 0.726);
     opacity: 0.9;
