@@ -7,17 +7,18 @@ import '../CSS/Contact.css';
 export default class Contact extends Component {
     render() {
         return (
+            <React.Fragment>
             <div id="contact" >
                 <div className="ui container">
                     <h2 className="contact-title">Contact Me</h2>
                     <ContactForm/>
                     <SocialLinks/>
-
-</div>
-                <div className="ui-fluid footer">
-                    <p>Copyright Chris Duenas 2018</p>
                 </div>
             </div>
+                <div className="footer">
+                    <p>Copyright Chris Duenas 2018</p>
+                </div>
+            </React.Fragment>
         )
     }
 }

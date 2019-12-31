@@ -53,20 +53,27 @@
     align-items: center;
     padding: 10px;
 }
+.footer {
+    background-color:#1B1C1D;
+}
 
 @media (max-width:768px) {
     #contact {
         margin: 0 auto;
+        background-color:#1B1C1D;
+        background: url(../Media/darkcode.jpg);
         background-position: center center;
         background-size: 100% 100%;
-        background-color: black;
-       /* -webkit-background-size: cover;
+       -webkit-background-size: cover;
        -moz-background-size: cover;
        background-size: cover;
-       -o-background-size: cover; */
+       -o-background-size: cover;
     }
     .footer {
-        background-color:black;
+        padding: 10px;
+        background-color:#1B1C1D;
+        
+
     }
     .columns {
         display: flex;
