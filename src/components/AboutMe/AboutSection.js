@@ -10,7 +10,7 @@ export default class AboutSection extends Component {
                         <div className="ui container about">
                             <div className="about-image">
                                 <h5> Web Developer</h5>
-                                    <Responsive minWidth={768}>
+                                    <Responsive minWidth={769}>
                                         <Image src={require("../../Media/jameson.jpg")} alt="portrait" size="massive"/>
                                     </Responsive>
                                     <Responsive maxWidth={768}>
