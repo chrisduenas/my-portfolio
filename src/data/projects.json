@@ -19,6 +19,13 @@
        "description": "Sketch comedy Portfolio | Wix Editor",
        "linkTo": "https://www.cubatoriano.com"
        
-   }
+   },
+   {
+    "title": "Random Users app",
+    "imgName": "random",
+    "description": "Refresh to see random users",
+    "linkTo": "https://random-users-app.herokuapp.com/"
+    
+}
     ]
 }
