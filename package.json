@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/compat-data": "~7.8.0",
     "assert": "^1.5.0",
     "domutils": "^1.7.0",
     "flat": "^4.1.0",
@@ -12,7 +13,11 @@
     "react-reveal": "^1.2.2",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.82.2",
+    "update": "^0.7.4",
     "zenscroll": "^4.0.2"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.5.5"
   },
   "scripts": {
     "start": "react-scripts start",
